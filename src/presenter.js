@@ -1,15 +1,14 @@
-import sumar from "./sumador";
+import sumar from "./caldulador_monto";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const monto = document.querySelector("#monto_venta");
+const form = document.querySelector("#venta_form");
+const div = document.querySelector("#resultado_div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const monto_venta = Number.parseInt(monto.value);
+  // const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + monto_venta + "</p>";
 });
