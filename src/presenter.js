@@ -1,4 +1,4 @@
-import calcular_cambio from "./caldulador_monto";
+import {calcular_cambio} from "./caldulador_monto";
 
 const monto = document.querySelector("#monto_venta");
 const efectivo = document.querySelector("#efectivo_venta");
@@ -20,5 +20,5 @@ form.addEventListener("submit", (event) => {
       " Bs." +
       "</p>";
   }
-  
+
 });
