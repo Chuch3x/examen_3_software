@@ -20,4 +20,5 @@ form.addEventListener("submit", (event) => {
       " Bs." +
       "</p>";
   }
+  
 });
