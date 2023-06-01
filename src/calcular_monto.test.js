@@ -10,4 +10,7 @@ describe("Calcular", () => {
   it("deberia mostrar 1 como la cantidad de monedas a entregar de cambio", () => {
     expect(calcular_monedas(1)).toEqual([1]);
   });
+  it("deberia mostrar 1,1 como la cantidad de monedas a entregar de cambio", () => {
+    expect(calcular_monedas(2)).toEqual([1,1]);
+  });
 });

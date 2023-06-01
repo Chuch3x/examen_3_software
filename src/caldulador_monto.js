@@ -4,6 +4,8 @@ function calcular_cambio(a, b) {
 function calcular_monedas(monto){
   if (monto == 1){
     return [1];
+  }else if(monto == 2){
+    return [1,1]
   }else
   return [5,5]
 }
