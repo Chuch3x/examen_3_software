@@ -1,4 +1,4 @@
-import sumar from "./caldulador_monto";
+import calcular_cambio from "./caldulador_monto";
 
 const monto = document.querySelector("#monto_venta");
 const efectivo = document.querySelector("#efectivo_venta");
@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const monto_venta = Number.parseInt(monto.value);
   const efectivo_venta = Number.parseInt(efectivo.value);
 
-  div.innerHTML = "<p>" + "Monto: " + monto_venta + " Efectivo: " + efectivo_venta+"</p>";
+  div.innerHTML = "<p>" + "Cambio: " + calcular_cambio(monto_venta, efectivo_venta) + " Bs."+"</p>";
 });
