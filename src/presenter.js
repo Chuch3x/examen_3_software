@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const monto_venta = Number.parseInt(monto.value);
   const efectivo_venta = Number.parseInt(efectivo.value);
 
-  div.innerHTML = "<p>" + "Monto: " + monto_venta + "Efectivo: " + efectivo_venta+"</p>";
+  div.innerHTML = "<p>" + "Monto: " + monto_venta + " Efectivo: " + efectivo_venta+"</p>";
 });
