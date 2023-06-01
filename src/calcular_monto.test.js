@@ -7,4 +7,7 @@ describe("Calcular", () => {
   it("deberia mostrar la cantidad de monedas a entregar de cambio", () => {
     expect(calcular_monedas(10)).toEqual([5,5]);
   });
+  it("deberia mostrar 1 como la cantidad de monedas a entregar de cambio", () => {
+    expect(calcular_monedas(1)).toEqual([1]);
+  });
 });
