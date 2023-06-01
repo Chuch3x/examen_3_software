@@ -1,5 +1,5 @@
-function calcular_cambio(a, b) {
-  return b - a;
+function calcular_cambio(monto_venta, efectivo) {
+  return efectivo - monto_venta;
 }
 
 function calcular_monedas(monto) {
