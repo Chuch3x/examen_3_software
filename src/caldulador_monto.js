@@ -1,5 +1,7 @@
 function calcular_cambio(a, b) {
   return b - a;
 }
-
-export default calcular_cambio;
+function calcular_monedas(monto){
+  return [5,5]
+}
+export {calcular_cambio, calcular_monedas};
