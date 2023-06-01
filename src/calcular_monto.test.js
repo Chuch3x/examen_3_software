@@ -13,4 +13,7 @@ describe("Calcular", () => {
   it("deberia mostrar 1,1 como la cantidad de monedas a entregar de cambio", () => {
     expect(calcular_monedas(2)).toEqual([1,1]);
   });
+  it("deberia mostrar monedas de 5,5,5,2,2 como cambio a 19 bs" , () =>{
+    expect(calcular_monedas(19).toEqual[5,5,5,2,2]);
+  });
 });
